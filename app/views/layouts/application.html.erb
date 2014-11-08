@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TOS Bangladesh</title>
+  
+  
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+    <link href="<%= asset_path('favicon.ico') %>" rel="shortcut icon">
+
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("style.css")%>" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("fontello.css")%>" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("mediaplayer.css")%>" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("prettyPhoto.css")%>" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("responsiveslides.css")%>" media="screen">
+    <link rel="stylesheet" type="text/css" href="<%= asset_path("responsive.css")%>" media="screen">
+    
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+    <script type="text/javascript" src="<%= asset_path("jquery.min.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("Chart.min.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("jquery.flexslider.min.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("jquery.prettyPhoto.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("SmoothScroll.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("responsiveslides.js")%>"></script>
+        <script type="text/javascript" src="<%= asset_path("_front.js")%>"></script>
+    <%= csrf_meta_tags %>
+        
+</head>
+    <body class="no-blog">
+        <header id="header" class="container">
+            <div class="main">
+                <nav class="header">
+                    <ul>
+                        <li><a href="shortcodes.html">features</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="">
+                                <h3>rock group</h3>
+                                <h6>infographic theme</h6>
+                            </a>
+                        </li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="gallery.html">portfolio</a></li>
+                    </ul>
+                </nav>
+                <nav class="header scroll_menu">
+                    <ul>
+                        <li><a href="shortcodes.html">features</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="">
+                                <h3>rock group</h3>
+                                <h6>infographic theme</h6>
+                            </a>
+                        </li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="gallery.html">portfolio</a></li>
+                    </ul>
+                </nav>
+                <div id="scene_1">
+                    <img class="item" src="images/scene/a1.png" alt="">
+                    <div id="items">
+                        <div><img src="images/scene/101.png" alt=""></div>
+                        <div><img src="images/scene/102.png" alt=""></div>
+                        <div><img src="images/scene/103.png" alt=""></div>
+                        <div><img src="images/scene/104.png" alt=""></div>
+                        <div><img src="images/scene/105.png" alt=""></div>
+                    </div>
+                    <img class="item" src="images/scene/a5.png" alt="">
+                    <img id="airplane" src="images/scene/6.png" alt="">
+                    <div class="clouds">
+                        <div id="cl_1" data-time="28" data-direction="right"></div>
+                        <div id="cl_2" data-time="36" data-direction="left"></div>
+                        <div id="cl_3" data-time="57" data-direction="left"></div>
+                        <div id="cl_4" data-time="49" data-direction="right"></div>
+                    </div>
+                    <div class="headline">
+                        <a href="" id="ln_1"><span class="number">Development</span></a>
+                        <a href="" id="ln_2" class="right"><span class="numder">Promotion</span></a>
+                        <a href="" id="ln_3"><span class="numder">95</span><span>Success</span></a>
+                    </div>
+                </div>
+                <div class="more_arrow"><span class="icon-down-open"></span></div>
+            </div>
+        </header>
+
+
+
+<%= yield %>
+
+
+
+<section class="container pad90-top cadetblue">
+            <div class="main">
+                <a href="" class="button anim">purchase</a>
+                <h4 class="light white marg0">ThemeRex is doing their best to grant each owner of Rock Group with maximum opportunities<br/> to present their individuality, and establish the best contact with their audience.</h4>
+            </div>
+        </section>
+        <footer class="footer container cadetblue">
+            <div class="main white">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                    <h3>rock group</h3>
+                    <h6>infographic theme</h6>
+                </div>
+                <div class="content"><a href="">ThemeREX</a> © 2014. All Rights Reserved. <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</div>
+                <div class="social">
+					<ul>
+						<li><a href=""><span class="icon-facebook"></span></a></li>
+						<li><a href=""><span class="icon-twitter"></span></a></li>
+						<li><a href=""><span class="icon-pinterest"></span></a></li>
+					</ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
